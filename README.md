@@ -1,5 +1,5 @@
 # Seasons-de
-Die deutsche Übersetzung des Spigot Plugins "Seasons".  
+Die deutsche Übersetzung des Spigot Plugins **Seasons**.  
 https://www.spigotmc.org/resources/seasons.39298/
 
 # Anleitung
