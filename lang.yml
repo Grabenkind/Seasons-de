@@ -1,0 +1,86 @@
+#   Übersetzt von Grabenkind
+#   Bei Rechtschreibfehlern bitte kontaktieren
+#   Kontakt: grabenkind@gmail.com
+#   
+#   Dieses Plugin wird von Harieo entwickelt!
+#   Alle Fehler die keine Rechtschreibfehler sind,
+#   müssen dem Entwickler selbst berichtet werden.
+
+version: 2
+
+weathers:
+    beautiful: "&aDie Sonne scheint, das Gras ist grün und das Wetter ist einfach &eHerrlich"
+    breezy: "&7Eine kühle Brise berührt deine Haut, es wird &2Windig"
+    chilly: "&3Du zitterst, während der Frost um dich herum glitzert, es ist sehr &9Kühl"
+    rainy: "&3Ein lauter Regen fällt und macht den Boden nass, es ist &9Regnerisch"
+    scorching: "&eDie Sonne verbrennt deine Haut und der Boden tut bei Berührung weh, es ist &6Glühend Heiß"
+    hot: "&eEs wird sehr &6Heiß &eheute"
+    warm: "&eEine wohltuende Wärme umarmt dich, während du dich bewegst, es ist ein &6Warmer &eTag"
+    cold: "&3Das Wasser ist sehr &9Kalt &3heute"
+    stormy: "&cEin großer &4Sturm &cbraut sich zusammen, die Götter sind zornig... Mach dich gefasst!"
+    freezing: "&3Das Wasser gefriert mit einer Eisschicht und du fühlst eine große Kälte, es ist &9Eisig"
+    snowy: "&7Eine große weiße Decke bedeckt die Welt, es ist &fVerschneit"
+    night: "&7Die Welt ruht mit der Sonne und alles ist ruhig... Bis die Mobs kommen, um dich zu fressen!"
+
+seasons:
+    spring: "Die Sonne geht auf, die Blumen duften frisch, der Frühling ist erwacht!"
+    summer: "Heute fühlt es sich wärmer an als sonst, vielleicht sogar zu warm... Der Sommer ist da!"
+    autumn: "Eine kühle Brise flüstert den Blättern, die von den Bäumen fallen, zu: \"Es ist Herbst!\""
+    winter: "Ein paar Schneeflocken fallen und die Welt wird kalt, Zeit für den Winter seine Spuren zu hinterlassen..."
+
+effects:
+    on-trigger:
+        devastation: "&cDeine Herzen schlagen schnell, deine Beine zittern und du stellst fest, dass du deine Gesundheit nicht regenerieren kannst, bis diese Verwüstung vorbei ist!"
+        feels-good: "&aDie Brise fühlt sich so gut auf der Haut an, eine Rüstung würde den Effekt jetzt einfach ruinieren..."
+        fluffy-coat: "&aDeine Rüstung gibt dir eine wohltuende Wärme und macht dich widerstandsfähig gegen die raue Kälte!"
+        frostbite: "&cDie Welt friert zu, und das wirst du auch, wenn du deine Rüstung nicht trägst!"
+        hold-onto-your-hat: "&7Pass auf deinen Hut auf, der Wind weht..."
+        hot-sand: "&eBei dieser Hitze auf Sand zu gehen, muss schmerzhaft sein!"
+        icy: "&9Ein Schauer läuft dir über den Rücken, während Wasser zu Eis wird!"
+        primitive-heating: "&9Eine Wärmequelle, die man in dieser Kälte mit sich herumtragen könnte, wäre großartig!"
+        revitalized: "&aDieses Wetter ist so belebend!"
+        soldering-iron: "&eDas nahe gelegene Eisen fängt an zu brutzeln, lege es besser erst einmal hin..."
+        strong-current: "&9Die Gewässer fließen in Strömen, es wird schwer sein sie zu durchqueren!"
+        sweating: "&eDas ist definitiv NICHT das Wetter für komplette Rüstung..."
+        the-shivers: "&cDas Wasser ist fast eisig und bei Berührung gefährlich kalt..."
+        wet-mud: "&7Der Schlamm überzieht deine Stiefel und wird bei diesem Wetter schwer zu durchqueren..."
+        warming-stew: "&7Dein Magen beginnt zu knurren und du sehnst dich nach einer herzhaften Suppe..."
+        wind-in-your-boots: "&7Du spürst den heutigen Wind zu deinen Gunsten!"
+    on-give:
+        feels-good: "&aDie Sonne auf deiner ungeschützten Haut gibt dir Energie, fühlt sich gut an!"
+        fluffy-coat: "&aDeine Rüstung gibt dir eine beruhigende Wärme und macht dich widerstandsfähiger."
+        hold-onto-your-hat: "&eDein Hut ist gerade weggeflogen, oh je!"
+        primitive-heating: "&aEin heißer Gegenstand in deinem Inventar erwärmt dein Herz und macht dich widerstandsfähig gegen die kalte Welt"
+        revitalized: "&aDie Sonne hier ist so &eBelebend&a, sie regeneriert dich!"
+        icy: "&cDas Wasser in deinem Eimer gefriert..."
+        soldering-iron: "&cDas Eisen ist kochend heiß, halte es nicht zu lange!"
+        strong-current: "&cDer Wasserstrom prallt gegen dich und deine Muskeln schreien vor Schmerz..."
+        sweating: "&cSchweiß tropft dir von der Stirn, es ist heute zu heiß für eine Rüstung..."
+        the-shivers: "&cDas eiskalte Wasser bringt dich um, komm da raus, wenn du leben willst!"
+        warming-stew: "&aDas tat gut, der köstliche Eintopf macht deine Wunden etwas erträglicher..."
+        wet-mud: "&eDer Schlamm klebt an deinen Stiefeln und verlangsamt dich..."
+        wind-in-your-boots: "&aDu spürst einen Windstoß in den Stiefeln und rast vorwärts!"
+    on-remove:
+        feels-good: "&eWährend du die Welt hinter dich lässt, lässt das energetisierende Sonnenlicht nach..."
+        fluffy-coat: "&cOhne Rüstung spürt dein Körper die Kälte wieder und ist nicht mehr widerstandsfähig gegen sie"
+        primitive-heating: "&eDein Körper wird nicht mehr erwärmt und seine Widerstandskraft lässt nach..."
+        revitalized: "&eWährend das Licht der Welt deine Haut verlässt, verlässt dich auch die &6Revitalisierende &eEnergie..."
+        strong-current: "&aDie Gewässer beruhigen sich und stehen still..."
+        sweating: "&aDie Luft wird kühler und du wischst dir den Schweiß von der Stirn..."
+
+command:
+    effects-list-title: "&7Die Auswirkungen für das Wetter &e%weather%, &7sind:"
+    effects-list-element: "&6&l%effect%: &7%description%"
+    season-info:
+        - "%season-color%in dieser Welt ist %season%"
+        - "&7Das derzeitige Wetter ist &2%weather%"
+        - "&eHeute ist Tag %day% von %max-days%"
+    season-info-footer: "&7Um die Auswirkungen dieses Wetters zu sehen, verwende den Befehl &e/seasons effects"
+    list-help:
+        - "&7Du kannst: %options% auflisten"
+        - "&7Verwendung: &e/seasons list <option>"
+    list-error: "&cEs sind keine Listen dieser Art verfügbar!"
+
+misc:
+    prefix: "&e&lSeasons&7∙ &r"
+    catastrophic-alert: "&c&lUNWETTERWARNUNG - Plane deinen Tag sorgfältig"
